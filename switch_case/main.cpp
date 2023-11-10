@@ -11,7 +11,7 @@ int main(){
 
  int bulan;
 
- std::cout << "Masukan bulan (1-12)";
+ std::cout << "Masukan bulan (1-12) : ";
  std::cin >> bulan;
 
 
@@ -66,7 +66,7 @@ int main(){
       break;
     
     default:
-      std::cout << "Bulan yang anda pilih tidak ada";
+      std::cout << "Mohon hanya masukan nomor (1 - 12)";
     }
 
 
